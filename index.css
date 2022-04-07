@@ -121,7 +121,7 @@ h3{
 }
 
 section{
-    margin-left: 5%;
+    margin-left: 4%;
     
 
 }
@@ -137,10 +137,8 @@ section{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    
-    
-
-    
+     
+   
 }
 
 .bloco{

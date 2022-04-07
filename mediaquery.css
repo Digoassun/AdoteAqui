@@ -1,8 +1,12 @@
 @media(max-width:768px){
-    header{
-        /* display: flex;        */
+    body{
+        weight:100%;
+    }
+
+        header{
+        display: flex;       
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         height: 145px;
         align-items: center;
         justify-content: center;
@@ -23,21 +27,44 @@
     }
 
     .navheader{
-        margin: 20px;
-        align-content: center;
+        margin: 10px;
+        gap: 2vh;
+        justify-content: center;
         align-items: center;
         width: 100%;
+       
                 
     }
     
     .indice{
         font-size: 20px;
         align-self: center;
+         
+    }
+
+
+    section{
+        margin-left:1%
+    }
+    .conteinerpet{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 80vh
            
     }
+    .bloco{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: transparent ;
+        background: white;
+        border-radius: 5%;   
+        height: 24vh;
+        text-align: center;  
+        
+    }
 }
-
-
 @media(max-width:1024px){
     .conteinerpet{
         flex-wrap: wrap;
